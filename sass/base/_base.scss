@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is 
+    font-size: 62.5%;
+    /*
+        - Default font-size: 16px;
+        - rem refer to font-size
+        - to simplify let's put font-size: 10px;
+        - So 10px -> 1rem
+        - 16px -> 100%
+          10px -> 62.5%
+    */
+}
